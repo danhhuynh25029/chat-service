@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chat_service_1696950800251-push-trigger-input-set
+  identifier: Build_chat_service_1696950800251pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: GOCICD
+  pipeline:
+    identifier: Build_chat_service_1696950800251
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
