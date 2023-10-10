@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chat_service_1696950800251-pr-trigger-input-set
+  identifier: Build_chat_service_1696950800251prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: GOCICD
+  pipeline:
+    identifier: Build_chat_service_1696950800251
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
